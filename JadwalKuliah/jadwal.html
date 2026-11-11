@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b4f8a">
+  <meta name="description" content="Jadwal kuliah Rafi Bachtiar Adhimukti, mahasiswa Sistem Informasi Universitas Kuningan.">
+  <title>Jadwal Kuliah — Rafi Bachtiar Adhimukti</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="jadwal.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navigasi utama">
+      <a class="brand" href="../index.html" aria-label="Kembali ke beranda">
+        <img src="../foto/fkom.png" alt="Logo Fakultas Ilmu Komputer Universitas Kuningan">
+        <span>JADWAL KULIAH<small>SISTEM INFORMASI · UNIKU</small></span>
+      </a>
+      <div class="nav-links">
+        <a href="../index.html">Beranda</a>
+        <a class="nav-current" href="#jadwal-mingguan">Jadwal mingguan</a>
+        <a href="../DataDiri/data_diri.html">Data diri <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="hero-ring ring-one"></div>
+      <div class="hero-ring ring-two"></div>
+      <div class="container hero-content">
+        <p class="eyebrow"><span></span> SISTEM INFORMASI · 2025—2026</p>
+        <h1>Ruang kelas,<br><em>hari demi hari.</em></h1>
+        <p>Jadwal kuliah Rafi Bachtiar Adhimukti di Universitas Kuningan. Disusun per hari supaya mudah dilihat sebelum berangkat ke kampus.</p>
+        <a class="hero-link" href="#jadwal-mingguan">Lihat jadwal mingguan <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-index">KALENDER AKADEMIK <span>25—01</span></div>
+    </section>
+
+    <section class="container current-day-section" aria-label="Jadwal kuliah hari ini" aria-live="polite">
+      <div class="current-day-callout">
+        <div class="current-day-heading">
+          <p class="eyebrow"><span></span> JADWAL HARI INI</p>
+          <h2 id="today-title">Jadwal kuliah hari ini</h2>
+          <p id="today-date" class="today-date"></p>
+          <p id="today-description">Jadwal kuliah hari ini akan ditampilkan di sini.</p>
+        </div>
+        <div class="current-day-courses class-list" id="today-courses"></div>
+        <a id="today-link" href="#jadwal-mingguan">Lihat jadwal hari ini <span aria-hidden="true">↓</span></a>
+      </div>
+    </section>
+
+    <section class="container weekly-section" id="jadwal-mingguan">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow"><span></span> JADWAL MINGGUAN</p>
+          <h2>Satu minggu,<br>banyak yang dipelajari.</h2>
+        </div>
+        <p class="schedule-note">MAU BERAPA AJA MATA KULIAHNYA HARUS KITA SELESAIKAN.</p>
+      </div>
+
+      <div class="weekday-grid">
+        <article class="day-column" id="senin">
+          <header class="day-heading"><span class="day-number">01</span><div><h3>Senin</h3><span>3 mata kuliah</span></div></header>
+          <div class="class-list">
+            <article class="class-card"><time>08.50 <span>—</span> 10.25 WIB</time><h4>Arsitektur Komputer dan Sistem Operasi <small>25-01</small></h4><span class="class-program">Sesi 7</span><dl class="class-details"><div><dt>Dosen</dt><dd>Ragel Trisudarmo, M.Kom.</dd></div><div><dt>Ruang</dt><dd>Offline · FKOM (detail ruang terpotong di foto)</dd></div></dl></article>
+            <article class="class-card"><time>10.30 <span>—</span> 12.05 WIB</time><h4>Analisis dan Perancangan Sistem Informasi <small>25-01</small></h4><span class="class-program">Sesi 13</span><dl class="class-details"><div><dt>Dosen</dt><dd>Erik Kurniadi, S.Kom., M.Kom.</dd></div><div><dt>Ruang</dt><dd>Offline · FKOM (detail ruang terpotong di foto)</dd></div></dl></article>
+            <article class="class-card"><time>13.00 <span>—</span> 14.35 WIB</time><h4>Pemrograman Dasar <small>25-01</small></h4><span class="class-program">Sesi 13</span><dl class="class-details"><div><dt>Dosen</dt><dd>Aji Permana, S.Kom., M.Kom.</dd></div><div><dt>Ruang</dt><dd>Offline · FKOM Lab (detail ruang terpotong di foto)</dd></div></dl></article>
+          </div>
+        </article>
+
+        <article class="day-column" id="selasa">
+          <header class="day-heading"><span class="day-number">02</span><div><h3>Selasa</h3><span>2 mata kuliah</span></div></header>
+          <div class="class-list">
+            <article class="class-card"><time>09.40 <span>—</span> 12.05 WIB</time><h4>Analisis Proses Bisnis <small>25-01</small></h4><span class="class-program">Sesi 7</span><dl class="class-details"><div><dt>Dosen</dt><dd>Dyah Puteria Wati, M.Kom.</dd></div><div><dt>Ruang</dt><dd>Offline · O1015</dd></div></dl></article>
+            <article class="class-card"><time>16.20 <span>—</span> 17.55 WIB</time><h4>Statistika Data <small>25-01</small></h4><span class="class-program">Sesi 13</span><dl class="class-details"><div><dt>Dosen</dt><dd>Arief Surya Lesmana, S.Stat., M.M.</dd></div><div><dt>Ruang</dt><dd>Offline · O2003</dd></div></dl></article>
+          </div>
+        </article>
+
+        <article class="day-column" id="rabu">
+          <header class="day-heading"><span class="day-number">03</span><div><h3>Rabu</h3><span>3 mata kuliah</span></div></header>
+          <div class="class-list">
+            <article class="class-card"><time>08.00 <span>—</span> 09.35 WIB</time><h4>Pemrograman Dasar <small>25-01</small></h4><span class="class-program">Sesi 14</span><dl class="class-details"><div><dt>Dosen</dt><dd>Aji Permana, S.Kom., M.Kom.</dd></div><div><dt>Ruang</dt><dd>Offline · FKOM (detail ruang terpotong di foto)</dd></div></dl></article>
+            <article class="class-card"><time>09.40 <span>—</span> 11.15 WIB</time><h4>Kalkulus <small>25-01</small></h4><span class="class-program">Sesi 7</span><dl class="class-details"><div><dt>Dosen</dt><dd>Azin Taufik, S.Pd., M.Pd.</dd></div><div><dt>Ruang</dt><dd>Offline · FKOM (detail ruang terpotong di foto)</dd></div></dl></article>
+            <article class="class-card"><time>13.00 <span>—</span> 14.35 WIB</time><h4>Analisis dan Perancangan Sistem Informasi <small>25-01</small></h4><span class="class-program">Sesi 14</span><dl class="class-details"><div><dt>Dosen</dt><dd>Erik Kurniadi, S.Kom., M.Kom.</dd></div><div><dt>Ruang</dt><dd>Offline · FKOM Lab (detail ruang terpotong di foto)</dd></div></dl></article>
+          </div>
+        </article>
+
+        <article class="day-column" id="kamis">
+          <header class="day-heading"><span class="day-number">04</span><div><h3>Kamis</h3><span>3 mata kuliah</span></div></header>
+          <div class="class-list">
+            <article class="class-card"><time>08.00 <span>—</span> 09.35 WIB</time><h4>English Communication for IT <small>25-01</small></h4><span class="class-program">Sesi 7</span><dl class="class-details"><div><dt>Dosen</dt><dd>Roni Nursyamsu, S.Pd., M.Pd.</dd></div><div><dt>Ruang</dt><dd>Offline · FKOM (detail ruang terpotong di foto)</dd></div></dl></article>
+            <article class="class-card"><time>09.40 <span>—</span> 11.15 WIB</time><h4>Riset Operasi <small>25-01</small></h4><span class="class-program">Sesi 7</span><dl class="class-details"><div><dt>Dosen</dt><dd>Nita Mirantika, S.T., M.Pd.</dd></div><div><dt>Ruang</dt><dd>Offline · O1018</dd></div></dl></article>
+            <article class="class-card"><time>16.20 <span>—</span> 17.55 WIB</time><h4>Web Desain <small>25-01</small></h4><span class="class-program">Sesi 13</span><dl class="class-details"><div><dt>Dosen</dt><dd>Dede Irawan, M.Kom.</dd></div><div><dt>Ruang</dt><dd>Offline · FKOM Lab (detail ruang terpotong di foto)</dd></div></dl></article>
+          </div>
+        </article>
+
+        <article class="day-column" id="jumat">
+          <header class="day-heading"><span class="day-number">05</span><div><h3>Jumat</h3><span>2 mata kuliah</span></div></header>
+          <div class="class-list">
+            <article class="class-card"><time>08.00 <span>—</span> 09.35 WIB</time><h4>Statistika Data <small>25-01</small></h4><span class="class-program">Sesi 14</span><dl class="class-details"><div><dt>Dosen</dt><dd>Arief Surya Lesmana, S.Stat., M.M.</dd></div><div><dt>Ruang</dt><dd>Offline · 01007</dd></div></dl></article>
+            <article class="class-card"><time>14.40 <span>—</span> 16.15 WIB</time><h4>Web Desain <small>25-01</small></h4><span class="class-program">Sesi 14</span><dl class="class-details"><div><dt>Dosen</dt><dd>Dede Irawan, M.Kom.</dd></div><div><dt>Ruang</dt><dd>Offline · FKOM (detail ruang terpotong di foto)</dd></div></dl></article>
+          </div>
+        </article>
+      </div>
+    
+    </section>
+
+    <section class="back-section">
+      <div class="container back-content">
+        <div><p class="eyebrow"><span></span> KEMBALI KE BERANDA</p><h2>Sampai jumpa di kampus.</h2></div>
+        <a href="../index.html">Kembali ke beranda <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <img src="../foto/fkom.png" alt="Logo Fakultas Ilmu Komputer Universitas Kuningan">
+      <p>Rafi Bachtiar Adhimukti · Sistem Informasi · Universitas Kuningan</p>
+      <a href="#jadwal-mingguan">Ke jadwal mingguan ↑</a>
+    </div>
+  </footer>
+  <script>
+    const weekdayIds = {
+      senin: "senin",
+      selasa: "selasa",
+      rabu: "rabu",
+      kamis: "kamis",
+      jumat: "jumat"
+    };
+    function updateTodaySchedule() {
+      const now = new Date();
+      const weekdayName = new Intl.DateTimeFormat("id-ID", {
+        weekday: "long",
+        timeZone: "Asia/Jakarta"
+      }).format(now);
+      const weekday = weekdayName.toLowerCase();
+      const formattedDate = new Intl.DateTimeFormat("id-ID", {
+        day: "numeric",
+        month: "long",
+        year: "numeric",
+        timeZone: "Asia/Jakarta"
+      }).format(now);
+      const dayId = weekdayIds[weekday];
+      const daySection = dayId ? document.getElementById(dayId) : null;
+      const heading = document.getElementById("today-title");
+      const date = document.getElementById("today-date");
+      const description = document.getElementById("today-description");
+      const courses = document.getElementById("today-courses");
+      const link = document.getElementById("today-link");
+
+      heading.textContent = `Jadwal kuliah hari ${weekdayName}`;
+      date.textContent = formattedDate;
+      link.href = daySection ? `#${dayId}` : "#jadwal-mingguan";
+      link.innerHTML = daySection
+        ? `Lihat jadwal hari ${weekdayName} <span aria-hidden="true">↓</span>`
+        : "Lihat jadwal mingguan <span aria-hidden=\"true\">↓</span>";
+      courses.replaceChildren();
+
+      const dayCourses = daySection?.querySelectorAll(".class-card");
+      if (dayCourses?.length) {
+        description.textContent = `Ada ${dayCourses.length} mata kuliah yang terjadwal hari ini.`;
+        dayCourses.forEach((course) => courses.appendChild(course.cloneNode(true)));
+      } else {
+        description.textContent = `Tidak ada jadwal kuliah yang tercatat untuk hari ${weekdayName}.`;
+      }
+    }
+
+    updateTodaySchedule();
+    window.setInterval(updateTodaySchedule, 60 * 1000);
+  </script>
+</body>
+</html>
